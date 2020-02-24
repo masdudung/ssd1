@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Example Testimonial Plugin
+Plugin Name: Masdudung Testimonial Plugin
 Plugin URI: https://jadipesan.com
 Description: Simple non-bloated WordPress Contact Form
 Version: 1.0
@@ -10,12 +10,7 @@ Author URI: https://jadipesan.com
 
 
 class masdudung_testimoni
-{
-// 	public function __construct()
-// 	{
-// 		$this->MD_testimonial_menu();
-// 	}
-	
+{	
     public function MD_testimoni_form() {
         echo '<form action="' . esc_url( $_SERVER['REQUEST_URI'] ) . '" method="post">';
         echo '<p>';
